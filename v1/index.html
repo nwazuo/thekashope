@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link href="css/reset.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Kashope</title>
+</head>
+
+<body>
+  <header>
+    <h1 class="title">thekashope</h1>
+    <nav class="head-links">
+      <ul>
+        <li><a href="">PORTFOLIO</a></li>
+        <li><a href="">WEDDINGS</a></li>
+        <li><a href="">DOCUMENTARY</a></li>
+        <li><a href="">CONTACT</a></li>
+      </ul>
+      <div class="social-head">
+        <a href="https://www.twitter.com/thekashope"><img src="img/twitter.png"></a>
+        <a href="https://www.instagram.com/thekashope"><img src="img/instagram.png"></a>
+      </div>
+    </nav>
+  </header>
+  <section id="gallery">
+    <figure><img src="img\home-gallery\D_bMkkrWkAADY-g.jpg">
+      <figcaption>The beauty of the Nigerian waters</figcaption>
+    </figure>
+    <figure><img src="img\home-gallery\D_IvjzzX4AA_WOJ.jpg">
+      <figcaption>Say hello to mama</figcaption>
+    </figure>
+    <figure><img src="img\home-gallery\D-6zBtzXkAAgGTQ.jpg">
+      <figcaption>A girl in the works </figcaption>
+    </figure>
+    <figure><img src="img\home-gallery\D-kGFEVWwAIu5Mh.jpg">
+      <figcaption>On your marks</figcaption>
+    </figure>
+    <figure><img src="img\home-gallery\D-pxtvkXsAAWRlI.jpg">
+      <figcaption>Mercedes with wings</figcaption>
+    </figure>
+    <figure><img src="img\home-gallery\D-pxxEEW4AEJnxv.jpg">
+      <figcaption>Interiors of a beauty</figcaption>
+    </figure>
+    <figure><img src="img\home-gallery\D-pxzqlXUAM99l1.jpg">
+      <figcaption>Yet anothe Image of a beautiful interior</figcaption>
+    </figure>
+    <figure><img src="img\home-gallery\D-u7jEMXoAU3jn1.jpg">
+      <figcaption>Before the vows</figcaption>
+    </figure>
+    <figure><img src="img\home-gallery\D-u7kSmXUAEvNdo.jpg">
+      <figcaption>Looking in to the promise in a flower</figcaption>
+    </figure>
+    <figure><img src="img\home-gallery\EAFYJCIX4AAyWNN.jpg">
+      <figcaption>Nkechi in wonderland</figcaption>
+    </figure>
+    <figure><img src="img\home-gallery\EAFYKEHXUAApsJX.jpg">
+      <figcaption>Naomi campbell in style</figcaption>
+    </figure>
+    <figure>
+      <img src="img\home-gallery\EAL70aaXkAAPdoN.jpg">
+      <figcaption>The great benin heritage in colour</figcaption>
+    </figure>
+  </section>
+  <footer>
+    <div class="about">
+      <h3>ABOUT</h3>
+      <p>
+        The kashope is a Nigerian Based Photographer who hails from the ‘Lorem Ipsum’ town in Nigeria. ‘Nigerian Based
+        Photographer’ as he is popularly known on twitter has worked with some of the most popular personalities in
+        Nigeria including: Basket mouth, Wizkid, e.t.c
+
+        He is majorly available for wedding photography, and is super involved in documentary photo-exploration of the
+        beautiful continent of Africa and beyond.
+      </p>
+    </div>
+    <div class="hire-me">
+      <h3>HIRE ME</h3>
+      <p>
+        I’m mostly always available for wedding photography, but when I’m not I’ll let you know.
+        Hit me up via <a href="#">thekashope@gmail.com</a> to book a session with me.
+      </p>
+      <button class="inbox">Shoot my inbox</button>
+    </div>
+    <div class="purchase">
+      <h3>PURCHASE PRINTS</h3>
+      <p>
+        All photographs are available for prints(at the right price of course), Just shoot me a mail lets discuss how
+        you want it.
+      </p>
+    </div>
+  </footer>
+  <!-- <script>
+    let gallery = document.querySelector('#gallery');
+    let elements = document.querySelectorAll('#gallery img');
+    let fragment = document.createDocumentFragment();
+
+    elements.forEach(element => {
+      element.addEventListener('click', function update() {
+        let fig = document.createElement('figure');
+        let figcaption = document.createElement('figcaption');
+        let caption = prompt('Enter Caption');
+        caption = document.createTextNode(caption);
+        figcaption.appendChild(caption);
+        let img = element.cloneNode(true);
+        fig.appendChild(img);
+        fig.appendChild(figcaption);
+        gallery.replaceChild(fig, element);
+        element.removeEventListener('click', update);
+      });
+    });
+  </script> -->
+</body>
+
+</html>
